@@ -6,7 +6,7 @@ export const RegisterPage = () => {
   return (
     <Box
     sx={{
-        marginTop: {lg: "100px", sm: "110px", xs: "67px" },
+        marginTop: {lg: "112px", sm: "110px", xs: "67px" },
         paddingTop: { sm: "78px", xs: "10px" },
         // maxWidth: "45%"
       }}

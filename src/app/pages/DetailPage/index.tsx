@@ -1093,9 +1093,12 @@ export default function DetailPage() {
 
               <Button
                 sx={{
-                  padding: "10px 70px",
-                  borderRadius: "10px",
-                  marginTop: "20px",
+                  padding: { sm: "10px 65px", xs: "10px 15px"},
+                  margin: { sm: "0 25px 0 10px" },
+                  borderRadius: "20px",
+                  fontWeight: "700",
+                  fontSize: { xs: "12px", sm: "14px" },
+                  marginTop: "32px !important",
                 }}
               >
                 Gửi đánh giá

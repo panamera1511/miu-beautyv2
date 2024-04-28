@@ -122,6 +122,10 @@ export default function CartPage() {
     return formattedPrice(result);
   };
 
+  const formatText = (str:string) => {
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+  };
+
   return (
     <Box
       sx={{
@@ -316,9 +320,22 @@ export default function CartPage() {
                   </Link>
                 </div>
                 <div>
-                  <Button sx={{ marginRight: "10px" }} className="outlined">
-                    Xóa tất cả
-                  </Button>
+                <Button
+                        sx={{
+                          color: "#EA4B48 !important",
+                    border: "1px solid #EA4B48 !important",
+                    padding: "6px 12px !important",
+                    fontWeight: "600 !important",
+                    backgroundColor: "#FFF",
+                    fontSize: "14px",
+                        }}
+                       
+                      >
+                                            Xoá tất cả
+
+                       
+                      </Button>
+                  
                 </div>
               </div>
 

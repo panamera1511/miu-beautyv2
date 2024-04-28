@@ -301,12 +301,12 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    top: 91%;
+    top: 92%;
     background-color: rgb(255, 255, 255);
     padding-top: 15px;
     padding-bottom: 5px;
     border-radius: 10px;
-    left: 3.5%;
+    left: 12.5%;
     z-index: 100;
   }
   .banner-bottom-item {

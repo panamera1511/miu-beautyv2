@@ -505,12 +505,13 @@ export default function DashboardPage() {
               />
             </Link>
           </Tabs>
-          <TabPanel value={value} index={0} style={{ width: "80%" }}>
+          <TabPanel value={value} index={0} style={{ width: "84%" }}>
             <Box>
               <h3>Tổng Quan</h3>
               <Container maxWidth="xl" style={{ paddingTop: "40px" }}>
-                <Grid container spacing={3}>
-                  <Grid item lg={3}>
+                <Grid container spacing={2}>
+                  <Grid item lg={3} sx={{paddingRight: "14px", paddingBottom: "14px",   boxShadow:
+                          "0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.01), 0px 1px 18px 0px rgba(0,0,0,0.01)",marginRight: "18px"}}>
                     <div
                       style={{
                         display: "flex",
@@ -558,7 +559,8 @@ export default function DashboardPage() {
                     </div>
                   </Grid>
 
-                  <Grid item lg={3}>
+                  <Grid item lg={2.6} sx={{paddingRight: "14px", paddingBottom: "14px",   boxShadow:
+                          "0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.01), 0px 1px 18px 0px rgba(0,0,0,0.01)",marginRight: "18px"}}>
                     <div
                       style={{
                         display: "flex",
@@ -613,7 +615,8 @@ export default function DashboardPage() {
                       </div>
                     </div>
                   </Grid>
-                  <Grid item lg={3}>
+                  <Grid item lg={2.6} sx={{paddingRight: "14px", paddingBottom: "14px",   boxShadow:
+                          "0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.01), 0px 1px 18px 0px rgba(0,0,0,0.01)",marginRight: "18px"}}>
                     <div
                       style={{
                         display: "flex",
@@ -656,7 +659,8 @@ export default function DashboardPage() {
                       </div>
                     </div>
                   </Grid>
-                  <Grid item lg={3}>
+                  <Grid item lg={2.6} sx={{paddingRight: "14px", paddingBottom: "14px",   boxShadow:
+                          "0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.01), 0px 1px 18px 0px rgba(0,0,0,0.01)",marginRight: "10px"}}>
                     <div
                       style={{
                         display: "flex",
@@ -1794,14 +1798,14 @@ export default function DashboardPage() {
                       <p
                         style={{
                           padding: "6px 2px",
-                          color: "#F50779",
-                          border: "1px solid #F50779",
+                          color: "#00B69B",
+                          border: "1px solid #00B69B",
                           textAlign: "center",
                           borderRadius: "10px",
-                          backgroundColor: "#FDABD2",
+                          backgroundColor: "#CCF0EB",
                         }}
                       >
-                        online
+                        Online
                       </p>
                     ) : (
                       <p
@@ -1992,18 +1996,18 @@ export default function DashboardPage() {
                     lg={1.5}
                     style={{ padding: "15px", fontSize: "14px" }}
                   >
-                    {item.status === "1" ? (
+                      {item.status === "1" ? (
                       <p
                         style={{
                           padding: "6px 2px",
-                          color: "#F50779",
-                          border: "1px solid #F50779",
+                          color: "#00B69B",
+                          border: "1px solid #00B69B",
                           textAlign: "center",
                           borderRadius: "10px",
-                          backgroundColor: "#FDABD2",
+                          backgroundColor: "#CCF0EB",
                         }}
                       >
-                        online
+                        Online
                       </p>
                     ) : (
                       <p

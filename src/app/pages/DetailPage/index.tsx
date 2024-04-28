@@ -293,10 +293,15 @@ export default function DetailPage() {
 
                       <Button
                         sx={{
-                          padding: { sm: "10px 30px" },
+                          padding: { sm: "10px 27px", xs: "10px 10px" },
                           borderRadius: "10px",
-                          margin: { sm: "0 20px", xs: "0 5px 0 0" },
-                          fontSize: { xs: "13px" },
+                          margin: { sm: "0 17px", xs: "0 5px 0 0" },
+                          fontSize: { xs: "12px", sm: "14px"},
+                          backgroundColor: "white !important",
+                          color: "#FA58A6 !important",
+                          border: "1px solid !important",
+                          borderRadius: "20px",
+                          fontWeight: "700",
                         }}
                         onClick={() => handleAddToCart({ ...item, number: "1" })}
                       >
@@ -325,15 +330,26 @@ export default function DetailPage() {
 
                       <Button
                         sx={{
-                          padding: { sm: "10px 70px" },
+                          padding: { sm: "10px 65px", xs: "10px 15px"},
                           borderRadius: "10px",
-                          margin: { sm: "0 20px" },
+                          margin: { sm: "0 25px 0 10px" },
+                          borderRadius: "20px",
+                          fontWeight: "700",
+                          fontSize: { xs: "12px", sm: "14px" },
                         }}
                       >
                         <Link to="/buy" style={{ color: "white" }}>
                           Mua ngay
                         </Link>
                       </Button>
+
+                      <Typography sx={{display: {sm: "block", xs: "none"}}}>
+                      <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="0.5" width="52" height="52" rx="26" fill="#FFE6F2"/>
+<path d="M25.9996 34.0448C9.33328 24.8331 20.9999 14.8331 25.9996 21.1564C30.9999 14.8331 42.6666 24.8331 25.9996 34.0448Z" stroke="#FA58A6" stroke-width="1.5"/>
+</svg>
+
+                      </Typography>
                       <Typography sx={{ display: { xs: "none" } }}>
                         <svg
                           width="52"

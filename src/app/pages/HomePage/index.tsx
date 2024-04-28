@@ -19,7 +19,7 @@ export const HomePage = () => {
       }}
     >
       <div className={cx("banner_main")}>
-        <Container maxWidth="lg" sx={{paddingLeft: {xs:"0px", sm: "16px"}, paddingRight: {xs:"0px", sm: "16px"}}}>
+        <Container maxWidth="xl" sx={{paddingLeft: {xs:"0px", sm: "0px"}, paddingRight: {xs:"0px", sm: "0px"}}}>
           <Banner />
         </Container>
       </div>

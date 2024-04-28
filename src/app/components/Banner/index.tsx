@@ -18,9 +18,9 @@ const cx = classNames.bind(styles);
 
 function imgUrl(value: number) {
   let arr = [
-    "https://i.postimg.cc/Fz1638Pc/Property-Default-1.png",
-    "https://i.postimg.cc/4dPs4DMT/banner-2-2.png",
-    "https://i.postimg.cc/LsVrjzVt/Rectangle-57.png",
+    "https://i.postimg.cc/ZqZB0qYN/Property-Default-3.png",
+    "https://i.postimg.cc/vT7rVyvc/Rectangle-57-1.png",
+    "https://i.postimg.cc/j2BpLzZs/banner-2-2-1.png",
   ];
   // const random = Math.floor(Math.random() * arr.length);
   return arr[value];

@@ -124,9 +124,9 @@ export default function LikePage() {
                     <div className={cx("status_like")}>Còn hàng</div>
                   </Grid>
                   <Grid item sm={3} sx={{ paddingTop: "0px !important" }}>
-                    <Button className={cx("button_buy")} variant="contained">
+                    <button className={cx("button_buy")} variant="contained">
                       Thêm vào giỏ hàng{" "}
-                      <span style={{ marginLeft: "5px" }}>
+                      {/* <span style={{ marginLeft: "5px" }}>
                         <svg
                           width="18"
                           height="17"
@@ -142,11 +142,11 @@ export default function LikePage() {
                             stroke-linejoin="round"
                           />
                         </svg>
-                      </span>
-                    </Button>
+                      </span> */}
+                    </button>
                   </Grid>
                   <Grid item sm={1} sx={{ textAlign: "center" }}>
-                    <button onClick={() => handleDelete(item.id)}>
+                    <button style={{backgroundColor: "#FFF"}} onClick={() => handleDelete(item.id)}>
                       <svg
                         width="25"
                         height="25"
@@ -233,9 +233,9 @@ export default function LikePage() {
                 </span>
               </div>
               <div>
-                <Button sx={{ marginRight: "10px" }} className="outlined">
+                <button className={cx("button_buy-delete")} sx={{ marginRight: "10px" }}>
                   Xóa tất cả
-                </Button>
+                </button>
               </div>
             </div>
           </Grid>

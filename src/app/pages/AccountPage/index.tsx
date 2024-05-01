@@ -566,7 +566,18 @@ export default function AccountPage() {
                             </button>
                           </div>
                       </div>
-                    <img src="https://i.postimg.cc/kX7L9ccb/order.png" />
+                      <div className={cx("history")}>
+                      <img src="https://i.postimg.cc/kX7L9ccb/order.png" />
+                    <button
+                     className={cx("button_buy-delete")}
+                       
+                      >
+                                           Huỷ đơn
+
+                       
+                      </button>
+                      </div>
+                    
                   </Grid>
                 </Grid>
               </Container>

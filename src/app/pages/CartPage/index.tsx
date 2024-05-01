@@ -320,21 +320,14 @@ export default function CartPage() {
                   </Link>
                 </div>
                 <div>
-                <Button
-                        sx={{
-                          color: "#EA4B48 !important",
-                    border: "1px solid #EA4B48 !important",
-                    padding: "6px 12px !important",
-                    fontWeight: "600 !important",
-                    backgroundColor: "#FFF",
-                    fontSize: "14px",
-                        }}
+                <button
+                     className={cx("button_buy-delete")}
                        
                       >
                                             Xoá tất cả
 
                        
-                      </Button>
+                      </button>
                   
                 </div>
               </div>

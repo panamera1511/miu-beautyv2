@@ -117,4 +117,25 @@ label {
   .email_input-button {
     width: 35%;
   }
+
+  .button_bottom {
+    width: 100% !important;
+  
+  }
 }
+
+.button_buy-delete {
+  width: 100%;
+  border-radius: 100px !important;
+  font-weight: 600 !important;
+  padding: 12px 20px !important;
+  background-color: #FFF;
+  color: #EA4B48;
+  border: 1px solid #EA4B48;
+  font-size: 16px;
+}
+.history {
+  position: relative;
+}
+
+

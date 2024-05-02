@@ -567,8 +567,14 @@ export default function AccountPage() {
                           </div>
                       </div>
                       <div className={cx("history")}>
-                      <img src="https://i.postimg.cc/kX7L9ccb/order.png" />
-                    <button
+                      <img style={{maxWidth: "102%"}} src="https://i.postimg.cc/kX7L9ccb/order.png" />
+                   
+                      </div>
+                    
+                        <div className={cx("history-delete")}>
+                        <div>
+                          </div>
+                      <button
                      className={cx("button_buy-delete")}
                        
                       >
@@ -577,7 +583,7 @@ export default function AccountPage() {
                        
                       </button>
                       </div>
-                    
+
                   </Grid>
                 </Grid>
               </Container>

@@ -21,7 +21,7 @@
   }
 
   .button_buy-delete {
-    width: 10%;
+    width: 14%;
     border-radius: 100px !important;
     font-weight: 600 !important;
     padding: 12px 18px !important;
@@ -29,9 +29,11 @@
     color: #FFF;
     font-size: 16px;
   }
+  .history-delete {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .button_buy-delete {
-    position: absolute;
-    bottom: -10%;
-    right: 14%;
+    
   }

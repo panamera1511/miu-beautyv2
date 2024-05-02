@@ -102,6 +102,11 @@ select option:disabled {
     padding: 0px 30px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .layout_footer {
+    padding-top: 20px;
+  }
+}
 .outlined {
   background-color: #FFFF!important;
   color: #FA58A6 !important;

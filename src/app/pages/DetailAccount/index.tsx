@@ -119,6 +119,18 @@ export default function DetailAccountPage() {
 
           </Box> */}
 
+<div className={cx("history-delete")}>
+                        <div>
+                          </div>
+                      <button
+                     className={cx("button_buy-delete")}
+                       
+                      >
+                                           Huỷ đơn
+
+                       
+                      </button>
+                      </div>
       
       </Container>
     </Box>
